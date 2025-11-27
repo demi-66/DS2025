@@ -1,0 +1,19 @@
+/* Graph 1 */
+graph G {
+  label="Graph 1";
+  labelloc=t;
+  fontsize=20;
+  layout=neato;
+  node [shape=circle, style=filled, color=lightblue, fontsize=14];
+  edge [fontsize=12];
+  A -- B [label="4", len=2.0];
+  A -- D [label="2", len=2.0];
+  B -- C [label="12", len=2.0];
+  B -- E [label="9", len=2.0];
+  C -- F [label="10", len=2.0];
+  D -- E [label="13", len=2.0];
+  D -- G [label="11", len=2.0];
+  E -- F [label="5", len=2.0];
+  E -- G [label="14", len=2.0];
+  F -- G [label="8", len=2.0];
+}
